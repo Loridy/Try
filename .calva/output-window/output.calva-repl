@@ -1,0 +1,256 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Aborting connect, error determining connect sequence.
+; Aborting connect, error determining connect sequence.
+; Aborting connect, error determining connect sequence.
+; Aborting connect, error determining connect sequence.
+; Aborting connect, error determining connect sequence.
+; Aborting connect, error determining connect sequence.
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless
+; Aborting connect, error determining connect sequence.
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉try.core꞉>  ; Use `alt+enter` to evaluate
+; Creating cljs repl session...
+; Connecting cljs repl: Leiningen + shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Error while connecting cljs REPL: EntryNotFound (FileSystemError): Unable to read file '/Users/loridy/Desktop/try/shadow-cljs.edn' (Error: Unable to resolve nonexistent file '/Users/loridy/Desktop/try/shadow-cljs.edn')
+; Aborting connect, error determining connect sequence.
+; Aborting connect, error determining connect sequence.
+; Aborting connect, error determining connect sequence.
+; Aborting connect, error determining connect sequence.
+; Syntax error compiling at (src/try/core.clj:1:1745).
+; Unable to resolve symbol: n in this context
+clj꞉try.core꞉> 
+#object[clojure.core$dec 0x694f1c9 "clojure.core$dec@694f1c9"]
+clj꞉try.core꞉> 
+#'try.core/s
+clj꞉try.core꞉> 
+; Execution error (ClassCastException) at try.core/eval2597 (form-init2945632165298330301.clj:51).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉try.core꞉> 
+nil
+clj꞉try.core꞉> 
+; Syntax error (ClassNotFoundException) compiling at (src/try/core.clj:1:1745).
+; clojure.string
+clj꞉try.core꞉> 
+#'try.core/-main
+clj꞉try.core꞉> 
+; Syntax error (ClassNotFoundException) compiling at (src/try/core.clj:1:1745).
+; clojure.string
+clj꞉try.core꞉> 
+; Syntax error (ClassNotFoundException) compiling at (src/try/core.clj:1:1745).
+; clojure.string
+clj꞉try.core꞉> 
+nil
+clj꞉try.core꞉> 
+#'try.core/factorial
+clj꞉try.core꞉> 
+2
+clj꞉try.core꞉> 
+3
+clj꞉try.core꞉> 
+6
+clj꞉try.core꞉> 
+#'try.core/s
+clj꞉try.core꞉> 
+; Execution error (ClassCastException) at try.core/eval2617 (form-init2945632165298330301.clj:51).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉try.core꞉> 
+"I, don't, do, a, whole, lot, ..., yet."
+clj꞉try.core꞉> 
+#'try.core/delimiters
+clj꞉try.core꞉> 
+#'try.core/count-occurrence
+clj꞉try.core꞉> 
+; nREPL Connection was closed
+; Aborting connect, error determining connect sequence.
+; Connecting ...
+; No nrepl port file found.
+; Connecting ...
+; No nrepl port file found.
+; Bad url: localhost:
+; Interrupting Jack-in process.
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉try.core꞉> 
+; Jack-in done.
+clj꞉try.core꞉> 
+#'try.core/s
+clj꞉try.core꞉> 
+#'try.core/count-occurrence
+clj꞉try.core꞉> 
+{"," 0, ";" 0, ":" 0, "|" 0, "\t" 0}
+clj꞉try.core꞉> 
+{"," 0, ";" 0, ":" 0, "|" 0, "\t" 0}
+clj꞉try.core꞉> 
+"loridyfrannie"
+clj꞉try.core꞉> 
+#'try.core/s
+clj꞉try.core꞉> 
+; Syntax error compiling at (src/try/core.clj:52:1).
+; Unable to resolve symbol: check in this context
+clj꞉try.core꞉> 
+#'try.core/delimiter
+clj꞉try.core꞉> 
+#'try.core/delimiters
+clj꞉try.core꞉> 
+#'try.core/occurrence
+clj꞉try.core꞉> 
+#'try.core/split-str
+clj꞉try.core꞉> 
+#'try.core/check-delimiters
+clj꞉try.core꞉> 
+; Syntax error compiling at (src/try/core.clj:47:3).
+; Unable to resolve symbol: check-whitespace in this context
+clj꞉try.core꞉> 
+#'try.core/check-whitespace
+clj꞉try.core꞉> 
+#'try.core/check
+clj꞉try.core꞉> 
+#'try.core/s
+clj꞉try.core꞉> 
+checking delimiter #"," : 8
+checking delimiter #", " : 8
+checking delimiter #";" : 1
+checking delimiter #"; " : 1
+checking delimiter #":" : 1
+checking delimiter #": " : 1
+checking delimiter #"\|" : 1
+checking delimiter #"\| " : 1
+checking delimiter #"\t" : 1
+checking delimiter #" " : 8
+nil
+clj꞉try.core꞉> 
+; Syntax error compiling at (src/try/core.clj:53:1).
+; Unable to resolve symbol: frequences in this context
+clj꞉try.core꞉> 
+{\space 7, \a 1, \d 2, \e 2, \' 1, \h 1, \I 1, \, 7, \l 2, \. 4, \n 1, \o 4, \t 3, \w 1, \y 1}
+clj꞉try.core꞉> 
+; Syntax error compiling at (src/try/core.clj:55:1).
+; Unable to resolve symbol: ms in this context
+clj꞉try.core꞉> 
+#'try.core/delimiters-map
+clj꞉try.core꞉> 
+{#"\t" 0, #": " 0, #"\| " 0, #"\|" 0, #" " 0, #":" 0, #", " 0, #"," 0, #"; " 0, #";" 0}
+clj꞉try.core꞉> 
+#'try.core/check-delimiters
+clj꞉try.core꞉> 
+checking delimiter #"," : 8
+checking delimiter #", " : 8
+checking delimiter #";" : 1
+checking delimiter #"; " : 1
+checking delimiter #":" : 1
+checking delimiter #": " : 1
+checking delimiter #"\|" : 1
+checking delimiter #"\| " : 1
+checking delimiter #"\t" : 1
+nil
+clj꞉try.core꞉> 
+#'try.core/check-delimiters
+clj꞉try.core꞉> 
+checking delimiter #"," : checking delimiter #", " : checking delimiter #";" : checking delimiter #"; " : checking delimiter #":" : checking delimiter #": " : checking delimiter #"\|" : checking delimiter #"\| " : checking delimiter #"\t" : nil
+clj꞉try.core꞉> 
+#'try.core/check-delimiters
+clj꞉try.core꞉> 
+checking delimiter #"," : 8
+checking delimiter #", " : 8
+checking delimiter #";" : 1
+checking delimiter #"; " : 1
+checking delimiter #":" : 1
+checking delimiter #": " : 1
+checking delimiter #"\|" : 1
+checking delimiter #"\| " : 1
+checking delimiter #"\t" : 1
+nil
+clj꞉try.core꞉> 
+#'try.core/c
+clj꞉try.core꞉> 
+nil
+clj꞉try.core꞉> 
+#'try.core/c
+clj꞉try.core꞉> 
+[]
+nil
+clj꞉try.core꞉> 
+; Syntax error reading source at (REPL:41:1).
+; EOF while reading, starting at line 40
+clj꞉try.core꞉> 
+[]
+clj꞉try.core꞉> 
+[1]
+clj꞉try.core꞉> 
+nil
+clj꞉try.core꞉> 
+; Syntax error compiling at (src/try/core.clj:49:1).
+; Unable to resolve symbol: dotime in this context
+clj꞉try.core꞉> 
+; Syntax error compiling at (src/try/core.clj:49:1).
+; Unable to resolve symbol: dotime in this context
+clj꞉try.core꞉> 
+; Syntax error compiling at (src/try/core.clj:49:1).
+; Unable to resolve symbol: dotime in this context
+clj꞉try.core꞉> 
+0
+1
+2
+3
+4
+nil
+clj꞉try.core꞉> 
+nil
+clj꞉try.core꞉> 
+; Syntax error compiling at (src/try/core.clj:51:1).
+; Can't take value of a macro: #'clojure.core/dotimes
+clj꞉try.core꞉> 
+; Execution error (ClassCastException) at try.core/eval6198 (form-init17771523777036034425.clj:53).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉try.core꞉> 
+nil
+clj꞉try.core꞉> 
+0
+1
+2
+3
+4
+nil
+clj꞉try.core꞉> 
+"I, don't, do, a, whole, lot, ..., yet."
+clj꞉try.core꞉> 
+; nREPL Connection was closed
+; Connecting ...
+; No nrepl port file found.
+; Bad url: localhost:
+; Connecting ...
+; No nrepl port file found.
+; Bad url: localhost:
+; Connecting ...
+; No nrepl port file found.
+; Bad url: localhost:
+; Connecting ...
+; No nrepl port file found.
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless
+; Interrupting Jack-in process.
