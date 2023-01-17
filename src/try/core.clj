@@ -56,25 +56,25 @@
             (recur (assoc d kk (get d1 kk)) (rest k))
             (recur d (rest k))))))))
 
-(def illegal_char [\" \( \)])
+(def illegal-char [\" \( \)])
 ;; exclude both quote notation and parenthesis as parenthesis sometimes create errors
 
 (defn ignore-quotes 
   "ignore information inside quote notation"
   [string]
-  (loop [len 0 new_string "" inquote? false]
+  (loop [len 0 new-string "" inquote? false]
     (if (= len (count string))
-      new_string
+      new-string
       (do
         (if (not
-             (.contains illegal_char (nth string len))
+             (.contains illegal-char (nth string len))
             ;;  (= \" (nth string len))
              )
           (do
             (if inquote?
-              (recur (inc len) new_string inquote?)
-              (recur (inc len) (str new_string (nth string len)) inquote?)))
-          (recur (inc len) new_string (not inquote?)))))))
+              (recur (inc len) new-string inquote?)
+              (recur (inc len) (str new-string (nth string len)) inquote?)))
+          (recur (inc len) new-string (not inquote?)))))))
 
 ;; To be updated: take key-val pair into consideration
 (defn check-terminate 
