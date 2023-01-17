@@ -11,6 +11,10 @@
   (println "Hello, World!"))
 
 
+;; You may use following command to try
+;; (get-delimiter "resources/try.csv")
+
+
 (defn two-chars-delimiters
   "take a string, and get two-character delimiters"
   [string]
